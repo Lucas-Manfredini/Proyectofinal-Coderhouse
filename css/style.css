@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+
+/* GUIA DE FUENTES, Agregar aqui a base de recordatorio
+
+font-family: 'Poppins', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+}
+
+article p{
+    color: black;
+    font-weight: 200;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.textoDerecha{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: 200;
+}
+
+.colorParrafo1{
+    color:red;
+}
+
+.fondoPagina{
+    color:dimgray;
+    width: 100%;
+    height: 100%;
+}
+.imagenFondo{
+    background-image: url("https://i.imgur.com/UTVdR9r.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;
+}
+
+.imagenfondoContacto{
+    background-image: url(https://i.imgur.com/DxxSUvn.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;
+}
+
+.imagenesPagina{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(221, 218, 218);
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 20px;
+}
+.barraNav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.barraNav li a{
+    text-decoration: none;
+    color:black;
+}
+
+footer{
+    background-color: rgb(221, 218, 218);
+    width: 100%;
+}
+
+footer a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
