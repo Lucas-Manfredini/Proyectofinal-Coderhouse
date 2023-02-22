@@ -109,3 +109,67 @@ footer a{
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
+
+.grid-container{
+    background-color: dimgray;
+    display: grid;
+    width: 50%;
+    height: 800px;
+    grid-template: repeat(3, 200px) / repeat(4, 200px) 200px;
+    grid-template-areas: 
+    "item1 item1 item1 item4 item2"
+    "item3 item3 item3 item4 item2"
+    "item5 item4 item6 item4 item2"
+    ;
+}
+
+
+@media (max-width:768px){
+    header{
+        background-color: dimgray;
+    }
+    .barraNav{
+        justify-content: flex-start;
+    }
+    footer{
+        background-color: dimgray
+    }
+    footer a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .imagenesPagina{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+    }
+}
+
+@media (max-width:320px){
+    header{
+        background-color: dimgray;
+    }
+    .barraNav{
+        justify-content: flex-start;
+    }
+    footer{
+        background-color: dimgray
+    }
+    footer a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .imagenesPagina{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+    }
+}

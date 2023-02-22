@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -12,23 +13,42 @@
         <div>
             <h1>LM Photograpy</h1>
         </div>
-        <nav>
-            <ul class="barraNav">
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/exteriores.html">Exteriores</a></li>
-                <li><a href="../pages/Interiores.html">Interiores</a></li>
-                <li><a href="../pages/retratos.html">Retratos</a></li>
-                <li><a href="../index.html">Volver al Inicio</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-dimgray">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Navegacion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desplegable</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+                    <li><a class="dropdown-item" href="../pages/exteriores.html">Exteriores</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../pages/Interiores.html">Interiores</a></li>
+                    <li><a class="dropdown-item" href="../pages/retratos.html">Retratos</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
         </nav>
-        <div>
-            <h2>Pagina de Contacto</h2>
-        </div>
+        <h2> Pagina de contacto</h2>
     </header>
     <main>
         <img class="imagenfondoContacto"/>
         <p>Formulario de contacto</p>
-        <form action="">
+        <form class="card" style="width: 18rem;"></form>
+        <div class="card-body">
             <legend>Datos personales</legend>
             <fieldset>
                 <label for="name">Nombre</label>
@@ -46,10 +66,12 @@
             </fieldset>
             <input type="submit">
             <input type="reset" value="reset">
+        </div>
         </form>
     </main>
     <footer>
         <a href="https://500px.com/p/lucasmanfredini">Nuestro sitio en 500px</a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

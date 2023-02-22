@@ -13,32 +13,52 @@
         <div>
             <h1>LM Photograpy</h1>
         </div>
-        <nav>
-            <ul class="barraNav">
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/exteriores.html">Exteriores</a></li>
-                <li><a href="./pages/Interiores.html">Interiores</a></li>
-                <li><a href="./pages/retratos.html">Retratos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-dimgray">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Navegacion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desplegable</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
+                    <li><a class="dropdown-item" href="./pages/exteriores.html">Exteriores</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./pages/Interiores.html">Interiores</a></li>
+                    <li><a class="dropdown-item" href="./pages/retratos.html">Retratos</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
         </nav>
     </header>
     <main>
         <section>
             <img class="imagenFondo"/>
         </section>
-        <div>
-            <p>Introduccion</p>
-        </div>
-        <article>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptate autem sequi minima, reprehenderit architecto expedita aliquam sunt sint pariatur? Laboriosam rerum numquam harum ipsum. Repudiandae fugit at nulla minima?</p>
-        </article>
-        <div>
-            <p class="colorParrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title">Introduccion</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Bio</h6>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo sequi quae quidem odio eligendi velit dolore, enim iusto, quas nostrum in quasi necessitatibus ad recusandae accusantium fugiat temporibus vel perspiciatis!</p>
+            <a href="./pages/contacto.html" class="card-link">Contacto</a>
+            </div>
         </div>
     </main>
     <footer>
         <a href="https://500px.com/p/lucasmanfredini">Nuestro sitio en 500px</a>
     </footer>
-    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
