@@ -1,0 +1,29 @@
+@media (max-width:320px){
+    header{
+        background-color: rgb(221, 218, 218);
+    }
+    .barraNav{
+        justify-content: flex-start;
+    }
+    footer{
+        background-color: rgb(221, 218, 218)
+    }
+    footer a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .imagenesPagina{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+}

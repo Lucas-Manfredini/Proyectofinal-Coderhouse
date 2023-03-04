@@ -1,0 +1,29 @@
+h1{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: rgb(221, 218, 218);
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 20px;
+}
+.barraNav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.barraNav li a{
+    text-decoration: none;
+    color:black;
+}
