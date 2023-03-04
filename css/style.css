@@ -126,13 +126,13 @@ footer a{
 
 @media (max-width:768px){
     header{
-        background-color: dimgray;
+        background-color: rgb(221, 218, 218);
     }
     .barraNav{
         justify-content: flex-start;
     }
     footer{
-        background-color: dimgray
+        background-color: rgb(221, 218, 218)
     }
     footer a{
         display: flex;
@@ -151,13 +151,13 @@ footer a{
 
 @media (max-width:320px){
     header{
-        background-color: dimgray;
+        background-color: rgb(221, 218, 218);
     }
     .barraNav{
         justify-content: flex-start;
     }
     footer{
-        background-color: dimgray
+        background-color: rgb(221, 218, 218)
     }
     footer a{
         display: flex;
@@ -168,8 +168,13 @@ footer a{
     }
     .imagenesPagina{
         display: flex;
+        justify-content: center;
         width: 50%;
         height: 50%;
         padding: 20px;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
     }
 }
