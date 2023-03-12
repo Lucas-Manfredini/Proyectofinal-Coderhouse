@@ -1,7 +1,8 @@
-@media (max-width:320px){
+@media (max-width:1440px){
     header{
         background-color: rgb(221, 218, 218);
     }
+    
     .barraNav{
         justify-content: flex-start;
     }
@@ -17,36 +18,28 @@
     }
     .imagenesPagina{
         display: flex;
-        justify-content: center;
         width: 50%;
         height: 50%;
         padding: 20px;
     }
-    .tituloHeader{
-        display: none;
+    .textoIndex{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 25px;
+        text-align: center;
     }
-    .tituloHeader2{
-        display:block;
-        font-size:large;
-        padding-top: 20px;
-    }
-    .contenedorcardsContacto{
+    .contenedorCards{
         display: flex;
         flex-wrap: wrap;
-        justify-content:center;
+        justify-content:space-evenly;
         padding-bottom: 15px;
-    }
-    .paginaContactoh2{
-        display:none;
-    }
-    .tituloHeaderContacto{
-        display:none;
         padding-top: 15px;
-        padding-left: 10px;
     }
-    .tituloHeaderContactoh2{
-        display: block;
-        font-size: large;
-        padding-top: 20px;
+    .tituloHeaderExteriores{
+        display: flex;
+        padding-left: 65px;
     }
 }

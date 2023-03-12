@@ -7,8 +7,30 @@
     height: 660px;
 }
 
+.textoIndex{
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    
+}
+
 .fondoPagina{
     color:dimgray;
     width: 100%;
     height: 100%;
+}
+
+.contenedorCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding-bottom: 15px;
+}
+
+.tituloHeader2{
+    display:none
 }

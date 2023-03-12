@@ -2,6 +2,7 @@
     header{
         background-color: rgb(221, 218, 218);
     }
+    
     .barraNav{
         justify-content: flex-start;
     }
@@ -20,5 +21,51 @@
         width: 50%;
         height: 50%;
         padding: 20px;
+    }
+    .textoIndex{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 25px;
+        text-align: center;
+    }
+    .contenedorCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        padding-bottom: 15px;
+    }
+    .contenedorcardsContacto{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+        padding: 25px;
+    }
+    .paginaContactoh2{
+        display:none;
+    }
+    .tituloHeader{
+        padding-top: 15px;
+        padding-left: 65px;
+    }
+    .tituloHeaderContacto{
+        padding-top: 15px;
+        padding-left: 65px;
+    }
+    .tituloHeaderExterioresh2{
+        display:none;
+    }
+    .tituloHeaderExteriores{
+        padding-top: 15px;
+        padding-left: 65px;
+    }
+    .contenedorCardsExteriores1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
