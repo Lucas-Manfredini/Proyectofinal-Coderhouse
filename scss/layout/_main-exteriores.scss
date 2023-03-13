@@ -19,7 +19,7 @@
     justify-content: left;
 }
 
-.contenedorCardsExteriores1{
+.contenedorCardsExteriores{
     display: flex;
     flex-wrap: wrap;
     align-items: left;
@@ -43,4 +43,13 @@
     display:flex;
     padding-top: 10px;
     padding-right: 65px;
+}
+
+.parrafo425Exteriores{
+    padding: 5px;
+    padding-top: 15px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }

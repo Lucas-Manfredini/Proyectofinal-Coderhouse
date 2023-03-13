@@ -55,4 +55,34 @@
     .tituloHeaderExteriores2{
         display:none
     }
+    .parrafo425Exteriores{
+        padding: 5px;
+        padding-top: 15px;
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .tituloHeaderInterioresh3{
+        display: none;
+    }
+    
+    .tituloHeaderInteriores{
+        display: flex;
+        padding-left: 65px;
+        padding-top: 15px;
+    }
+    
+    .tituloHeaderInterioresh2{
+        display: none;
+    }
+    .parrafo425Interiores{
+        display: none;
+    }
+    .TituloheaderDroneh2{
+        display: none;
+    }
+    .parrafo425Drone{
+        display: none;
+    }
 }

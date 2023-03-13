@@ -1,4 +1,4 @@
-.anchoCarruselinteriores{
+.anchoCarrusel{
     width: auto;
     padding: 75px;
     padding-bottom: 0%;
@@ -9,31 +9,29 @@
     flex-wrap: wrap;
 }
 
-.textoInteriores{
-    width: 100%;
-    height: 50px;
-    padding-top: 15px;
-    padding-left: 75px;
+.contenedorCardsdrone{
     display: flex;
     flex-wrap: wrap;
     align-items: left;
     justify-content: left;
-}
-.tituloHeaderInterioresh3{
-    display: none;
+    padding-left: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.tituloHeaderInteriores{
-    display: flex;
+.tituloheaderDrone{
     padding-left: 65px;
 }
 
-.tituloHeaderInterioresh2{
-    display: flex;
+.TituloheaderDroneh2{
     padding-right: 65px;
     padding-top: 15px;
 }
 
-.parrafo425Interiores{
+.tituloheaderDroneh3{
+    display: none;
+}
+
+.parrafo425Drone{
     display: none;
 }

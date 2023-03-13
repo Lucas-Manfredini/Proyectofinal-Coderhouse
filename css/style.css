@@ -116,7 +116,7 @@ header {
   align-items: left;
   justify-content: left; }
 
-.contenedorCardsExteriores1 {
+.contenedorCardsExteriores {
   display: flex;
   flex-wrap: wrap;
   align-items: left;
@@ -138,6 +138,14 @@ header {
   padding-top: 10px;
   padding-right: 65px; }
 
+.parrafo425Exteriores {
+  padding: 5px;
+  padding-top: 15px;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center; }
+
 .anchoCarruselinteriores {
   width: auto;
   padding: 75px;
@@ -157,6 +165,53 @@ header {
   flex-wrap: wrap;
   align-items: left;
   justify-content: left; }
+
+.tituloHeaderInterioresh3 {
+  display: none; }
+
+.tituloHeaderInteriores {
+  display: flex;
+  padding-left: 65px; }
+
+.tituloHeaderInterioresh2 {
+  display: flex;
+  padding-right: 65px;
+  padding-top: 15px; }
+
+.parrafo425Interiores {
+  display: none; }
+
+.anchoCarrusel {
+  width: auto;
+  padding: 75px;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.contenedorCardsdrone {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: left;
+  padding-left: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.tituloheaderDrone {
+  padding-left: 65px; }
+
+.TituloheaderDroneh2 {
+  padding-right: 65px;
+  padding-top: 15px; }
+
+.tituloheaderDroneh3 {
+  display: none; }
+
+.parrafo425Drone {
+  display: none; }
 
 main {
   background-color: #dddada; }
@@ -219,9 +274,15 @@ footer a {
     justify-content: space-evenly;
     padding-bottom: 15px;
     padding-top: 15px; }
-  .tituloHeaderExteriores {
-    display: flex;
-    padding-left: 65px; } }
+  .parrafo425Exteriores {
+    padding: 5px;
+    padding-top: 15px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; }
+  .parrafo425Interiores {
+    display: none; } }
 
 @media (max-width: 1024px) {
   header {
@@ -267,6 +328,27 @@ footer a {
     font-size: large;
     padding-top: 25px; }
   .tituloHeaderExteriores2 {
+    display: none; }
+  .parrafo425Exteriores {
+    padding: 5px;
+    padding-top: 15px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; }
+  .tituloHeaderInterioresh3 {
+    display: none; }
+  .tituloHeaderInteriores {
+    display: flex;
+    padding-left: 65px;
+    padding-top: 15px; }
+  .tituloHeaderInterioresh2 {
+    display: none; }
+  .parrafo425Interiores {
+    display: none; }
+  .TituloheaderDroneh2 {
+    display: none; }
+  .parrafo425Drone {
     display: none; } }
 
 @media (max-width: 768px) {
@@ -323,7 +405,20 @@ footer a {
   .contenedorCardsExteriores1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; } }
+    justify-content: center; }
+  .parrafo425Exteriores {
+    padding: 5px;
+    padding-top: 15px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; }
+  .parrafo425Interiores {
+    display: none; }
+  .tituloheaderDrone {
+    padding-top: 15px; }
+  .parrafo425Drone {
+    display: none; } }
 
 @media (max-width: 425px) {
   header {
@@ -382,12 +477,45 @@ footer a {
   .tituloHeaderExterioresh2 {
     display: block;
     padding-bottom: 15px; }
-  .contenedorCardsExteriores1 {
+  .contenedorCardsExteriores {
+    display: none; }
+  .parrafo425Exteriores {
+    padding: 5px;
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
   .anchoCarrusel {
-    width: 425px; } }
+    width: auto; }
+  .parrafo425Interiores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px; }
+  .tituloHeaderInterioresh3 {
+    display: block;
+    display: flex;
+    padding-left: 25px;
+    padding-top: 15px; }
+  .tituloHeaderInteriores {
+    display: none; }
+  .tituloheaderDrone {
+    display: none; }
+  .tituloheaderDroneh3 {
+    display: block;
+    padding-left: 25px;
+    padding-top: 15px; }
+  .contenedorCardsdrone {
+    display: none; }
+  .parrafo425Drone {
+    padding: 5px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; } }
 
 @media (max-width: 320px) {
   header {
@@ -428,4 +556,23 @@ footer a {
   .tituloHeaderContactoh2 {
     display: block;
     font-size: large;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .tituloHeaderExteriores {
+    display: none; }
+  .tituloHeaderExterioresh2 {
+    display: block;
+    padding-bottom: 15px; }
+  .contenedorCardsExteriores {
+    display: none; }
+  .parrafo425Exteriores {
+    padding: 5px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; }
+  .textoExteriores {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 25%; } }

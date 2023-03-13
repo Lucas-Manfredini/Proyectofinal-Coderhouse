@@ -68,4 +68,21 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .parrafo425Exteriores{
+        padding: 5px;
+        padding-top: 15px;
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    .parrafo425Interiores{
+        display: none;
+    }
+    .tituloheaderDrone{
+        padding-top: 15px;
+    }
+    .parrafo425Drone{
+        display: none;
+    }
 }
