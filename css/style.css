@@ -233,7 +233,8 @@ main {
 
 footer {
   background-color: #dddada;
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 footer a {
   display: flex;
@@ -485,7 +486,9 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center; }
+    text-align: center;
+    background-color: #d8d5d5;
+    color: dimgray; }
   .anchoCarrusel {
     width: auto; }
   .parrafo425Interiores {
@@ -515,7 +518,9 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center; } }
+    text-align: center;
+    background-color: #d8d5d5;
+    color: dimgray; } }
 
 @media (max-width: 320px) {
   header {
