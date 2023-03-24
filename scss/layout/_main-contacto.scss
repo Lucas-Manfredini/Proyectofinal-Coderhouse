@@ -36,3 +36,11 @@
 .tituloHeaderContactoh2{
     display: none;
 }
+
+.paginaContactoh2{
+    padding-top: 15px;
+}
+
+.tituloHeadercontacto{
+    @include tituloHeadercontacto
+    }

@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fotografias realizadas en espacios interiores">
+    <meta name="keywords" content="Fotografia de arquitectura,Arq,Interiores,Fotografia de producto">
+    <meta name="author" content="Lucas Manfredini">
+    <meta name="copyright" content="LM Photography">
+    <!-- Meta's de Opengraph -->
+    <meta property="og: title" content="LM Photograpy">
+    <meta property="og: description" content="Estudio de fotografia">
+    <!-- Aca termina el Opengraph -->
+    <!-- Icono de pagina -->
+    <link rel="shortcut icon" href="../assets/img/camara.png" type="image/x-icon">   
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-    <title>Interiores</title>
+    <title>Interiores | LM Photography</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100" style="background-color: #dddada;">
     <header>
-        <div class="tituloHeaderInteriores">
-            <h1>LM Photograpy</h1>
+        <div>
+            <a class="tituloHeaderInteriores" href="../index.html">LM Photography</a>
         </div>
         <div class="tituloHeaderInterioresh3">
             <h3>LM PH</h3>
         </div>
         <nav class="navbar navbar-expand-lg bg-body-dimgray">
             <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Navegacion</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +37,7 @@
                     <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desplegable</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu Desplegable</a>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
                     <li><a class="dropdown-item" href="../pages/exteriores.html">Exteriores</a></li>
@@ -38,63 +47,58 @@
                     </ul>
                 </li>
                 </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
             </div>
         </nav>
-        <div class="tituloHeaderInterioresh2">
-            <h2>Pagina de Interiores</h2>
-        </div>
     </header>
     <main>
+            <!-- Texto de intro -->
+            <article class="textoIntroInteriores"> En la seccion de interiores te podras encontrar imagenes referidas tanto como a la arquitectura como a la fotografia de productos.</article>
         <!-- Inicio Carrusel N° 1 Interiores -->
         <article class="textoInteriores">
             <h5>Serie: Paseo Europeo</h5>
         </article>
-        <div class="anchoCarruselinteriores">
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <article class="anchoCarruselinteriores">
+        <div id="CarrosuelSuperiorInterior" class="carousel slide">
             <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#CarrosuelSuperiorInterior" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#CarrosuelSuperiorInterior" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#CarrosuelSuperiorInterior" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://i.imgur.com/qVSolJm.jpg" class="d-block w-100" alt="...">
+                <img src="https://i.imgur.com/qVSolJm.jpg" class="d-block w-100" alt="Pinturas en Versalles">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Pinturas en Versalles</h5>
                 <p>Los techos de Versalles, una maravillosa obra de arte.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://i.imgur.com/WxH9OjJ.jpeg" class="d-block w-100" alt="...">
+                <img src="https://i.imgur.com/WxH9OjJ.jpeg" class="d-block w-100" alt="Luís de Camões">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Luís de Camões</h5>
                 <p>Luís Vaz de Camoens, en portugués, Camões,fue un escritor y poeta portugués, generalmente considerado como el mayor poeta en lengua portuguesa.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://i.imgur.com/Su0naWp.jpg" class="d-block w-100" alt="...">
+                <img src="https://i.imgur.com/Su0naWp.jpg" class="d-block w-100" alt="Herreria en toledo ">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Herreria en toledo.</h5>
                 <p>Herrero de toledo, excelentes aceros y replicas de armas mediavales.</p>
                 </div>
             </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#CarrosuelSuperiorInterior" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#CarrosuelSuperiorInterior" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
-    <div class="contenedorCardsExteriores">
+        </article>
+    <section class="contenedorCardsExteriores">
         <div class="card" style="width: 400px;">
         <div class="card-body">
         <h5 class="card-title">Una vuelta por Europa</h5>
@@ -102,12 +106,12 @@
         <p class="card-text">Interesantes rincones y atracciones turisticas que ofrece el viejo continente.</p>
         </div>
     </div>
-    </div>
-    <div class="parrafo425Interiores">
+    </section>
+    <section class="parrafo425Interiores">
         <p>Info: Francia - Portugal - España - Interesantes rincones y atracciones turisticas que ofrece el viejo continente.</p>
-    </div>
+    </section>
     </main>
-    <footer>
+    <footer class="mt-auto">
         <a href="https://500px.com/p/lucasmanfredini">Nuestro sitio en 500px</a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

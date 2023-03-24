@@ -29,19 +29,13 @@
     padding-bottom: 25px;
 }
 
-.tituloHeaderExteriores{
-    display: flex;
-    padding-top: 10px;
-    padding-left: 65px;
-}
-
 .tituloHeaderExterioresh2{
     display:none
 }
 
 .tituloHeaderExteriores2{
     display:flex;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-right: 65px;
 }
 
@@ -52,4 +46,20 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
+}
+
+.tituloHeaderExteriores{
+    @include tituloHeaderExteriores
+}
+
+.textoIntroExteriores{
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 25px;
+    background-color: rgb(236, 233, 233);
+    font-family: 'Poppins', sans-serif;
 }

@@ -14,7 +14,7 @@ h2 {
 
 header {
   display: flex;
-  background-color: #dddada;
+  background-color: #c4c2c2;
   width: 100%;
   justify-content: space-between;
   padding: 10px;
@@ -62,6 +62,14 @@ header {
 .tituloHeader2 {
   display: none; }
 
+.tituloHeader {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+  padding-left: 65px;
+  padding-top: 15px; }
+
 .imagenfondoContacto {
   background-image: url(https://i.imgur.com/DxxSUvn.jpeg);
   background-position: center;
@@ -96,6 +104,17 @@ header {
 .tituloHeaderContactoh2 {
   display: none; }
 
+.paginaContactoh2 {
+  padding-top: 15px; }
+
+.tituloHeadercontacto {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+  padding-left: 65px;
+  padding-top: 25px; }
+
 .anchoCarrusel {
   width: auto;
   padding: 75px;
@@ -125,17 +144,12 @@ header {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-.tituloHeaderExteriores {
-  display: flex;
-  padding-top: 10px;
-  padding-left: 65px; }
-
 .tituloHeaderExterioresh2 {
   display: none; }
 
 .tituloHeaderExteriores2 {
   display: flex;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-right: 65px; }
 
 .parrafo425Exteriores {
@@ -145,6 +159,25 @@ header {
   flex-direction: row;
   justify-content: center;
   text-align: center; }
+
+.tituloHeaderExteriores {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+  padding-left: 65px;
+  padding-top: 25px; }
+
+.textoIntroExteriores {
+  width: auto;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 25px;
+  background-color: #ece9e9;
+  font-family: 'Poppins', sans-serif; }
 
 .anchoCarruselinteriores {
   width: auto;
@@ -169,10 +202,6 @@ header {
 .tituloHeaderInterioresh3 {
   display: none; }
 
-.tituloHeaderInteriores {
-  display: flex;
-  padding-left: 65px; }
-
 .tituloHeaderInterioresh2 {
   display: flex;
   padding-right: 65px;
@@ -180,6 +209,26 @@ header {
 
 .parrafo425Interiores {
   display: none; }
+
+.tituloHeaderInteriores {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+  padding-left: 65px;
+  padding-top: 25px; }
+
+.textoIntroInteriores {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #ece9e9;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium; }
 
 .anchoCarrusel {
   width: auto;
@@ -200,9 +249,6 @@ header {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-.tituloheaderDrone {
-  padding-left: 65px; }
-
 .TituloheaderDroneh2 {
   padding-right: 65px;
   padding-top: 15px; }
@@ -212,6 +258,25 @@ header {
 
 .parrafo425Drone {
   display: none; }
+
+.tituloheaderDrone {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+  padding-left: 65px;
+  padding-top: 25px; }
+
+.textoIntroDrone {
+  width: auto;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 25px;
+  background-color: #ece9e9;
+  font-family: 'Poppins', sans-serif; }
 
 main {
   background-color: #dddada; }
@@ -318,7 +383,7 @@ footer a {
     padding-bottom: 15px; }
   .paginaContactoh2 {
     font-size: large;
-    padding-top: 25px; }
+    padding-top: 15px; }
   .contenedorcardsContacto {
     display: flex;
     flex-direction: row;
@@ -350,7 +415,40 @@ footer a {
   .TituloheaderDroneh2 {
     display: none; }
   .parrafo425Drone {
-    display: none; } }
+    display: none; }
+  .textoIntroExteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroInteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroDrone {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; } }
 
 @media (max-width: 768px) {
   header {
@@ -396,7 +494,7 @@ footer a {
     padding-top: 15px;
     padding-left: 65px; }
   .tituloHeaderContacto {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 65px; }
   .tituloHeaderExterioresh2 {
     display: none; }
@@ -419,7 +517,40 @@ footer a {
   .tituloheaderDrone {
     padding-top: 15px; }
   .parrafo425Drone {
-    display: none; } }
+    display: none; }
+  .textoIntroExteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroInteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroDrone {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; } }
 
 @media (max-width: 425px) {
   header {
@@ -477,7 +608,8 @@ footer a {
     display: none; }
   .tituloHeaderExterioresh2 {
     display: block;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    font-size: x-large; }
   .contenedorCardsExteriores {
     display: none; }
   .parrafo425Exteriores {
@@ -496,7 +628,9 @@ footer a {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding-top: 15px; }
+    padding-top: 15px;
+    background-color: #d8d5d5;
+    color: dimgray; }
   .tituloHeaderInterioresh3 {
     display: block;
     display: flex;
@@ -520,7 +654,40 @@ footer a {
     justify-content: center;
     text-align: center;
     background-color: #d8d5d5;
-    color: dimgray; } }
+    color: dimgray; }
+  .textoIntroExteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroInteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroDrone {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; } }
 
 @media (max-width: 320px) {
   header {
@@ -546,7 +713,9 @@ footer a {
   .tituloHeader2 {
     display: block;
     font-size: large;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-size: x-large;
+    padding-bottom: 5px; }
   .contenedorcardsContacto {
     display: flex;
     flex-wrap: wrap;
@@ -554,7 +723,7 @@ footer a {
     padding-bottom: 15px; }
   .paginaContactoh2 {
     display: none; }
-  .tituloHeaderContacto {
+  .tituloHeadercontacto {
     display: none;
     padding-top: 15px;
     padding-left: 10px; }
@@ -577,7 +746,58 @@ footer a {
     justify-content: center;
     text-align: center; }
   .textoExteriores {
+    padding: 5px;
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    font-size: 25%; } }
+    justify-content: center;
+    text-align: center; }
+  .textoIntroExteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroInteriores {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .textoIntroDrone {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece9e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium; }
+  .anchoCarrusel {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto; }
+  .anchoCarruselinteriores {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto; } }

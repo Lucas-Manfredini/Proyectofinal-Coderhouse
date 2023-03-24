@@ -19,9 +19,6 @@
     padding-bottom: 25px;
 }
 
-.tituloheaderDrone{
-    padding-left: 65px;
-}
 
 .TituloheaderDroneh2{
     padding-right: 65px;
@@ -34,4 +31,20 @@
 
 .parrafo425Drone{
     display: none;
+}
+
+.tituloheaderDrone{
+    @include tituloheaderDrone
+}
+
+.textoIntroDrone{
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 25px;
+    background-color: rgb(236, 233, 233);
+    font-family: 'Poppins', sans-serif;
 }

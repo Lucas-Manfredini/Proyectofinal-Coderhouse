@@ -1,7 +1,8 @@
-@media (max-width:320px){
+@media (max-width:2532px){
     header{
         background-color: rgb(221, 218, 218);
     }
+    
     .barraNav{
         justify-content: flex-start;
     }
@@ -17,65 +18,72 @@
     }
     .imagenesPagina{
         display: flex;
-        justify-content: center;
         width: 50%;
         height: 50%;
         padding: 20px;
     }
-    .tituloHeader{
-        display: none;
+    .textoIndex{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 25px;
+        text-align: center;
     }
-    .tituloHeader2{
-        display:block;
-        font-size:large;
-        padding-top: 20px;
-        font-size: x-large;
-        padding-bottom: 5px;
-    }
-    .contenedorcardsContacto{
+    .contenedorCards{
         display: flex;
         flex-wrap: wrap;
-        justify-content:center;
+        justify-content:space-evenly;
         padding-bottom: 15px;
     }
     .paginaContactoh2{
-        display:none;
-    }
-    .tituloHeadercontacto{
-        display:none;
-        padding-top: 15px;
-        padding-left: 10px;
-    }
-    .tituloHeaderContactoh2{
-        display: block;
         font-size: large;
-        padding-top: 20px;
+        padding-top: 15px;
     }
-    .tituloHeaderExteriores{
-        display:none;
-    }
-    .tituloHeaderExterioresh2{
-        display:block;
+    .contenedorcardsContacto{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        justify-content: space-evenly;
         padding-bottom: 15px;
     }
-    .contenedorCardsExteriores{
-        display: none;
+    .tituloHeaderExterioresh2{
+        font-size: large;
+        padding-top: 25px;
+    }
+    .tituloHeaderExteriores2{
+        display:none
     }
     .parrafo425Exteriores{
         padding: 5px;
         padding-top: 15px;
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: center;
         text-align: center;
     }
-    .textoExteriores{
-        padding: 5px;
-        padding-top: 15px;
+    .tituloHeaderInterioresh3{
+        display: none;
+    }
+    
+    .tituloHeaderInteriores{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
+        padding-left: 65px;
+        padding-top: 15px;
+    }
+    
+    .tituloHeaderInterioresh2{
+        display: none;
+    }
+    .parrafo425Interiores{
+        display: none;
+    }
+    .TituloheaderDroneh2{
+        display: none;
+    }
+    .parrafo425Drone{
+        display: none;
     }
     .textoIntroExteriores{
         width: auto;
@@ -112,23 +120,5 @@
         background-color: rgb(236, 233, 233);
         font-family: 'Poppins', sans-serif;
         font-size: medium;
-    }
-    .anchoCarrusel{
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .anchoCarruselinteriores{
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-        margin-right: auto;
-        margin-left: auto;
     }
 }

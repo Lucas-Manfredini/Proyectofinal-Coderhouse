@@ -2,3 +2,52 @@
     background-color: rgb(216, 213, 213);
     color: dimgray;
 }
+
+@mixin tituloheaderlmphotography{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+    padding-left: 65px;
+    padding-top: 15px;
+}
+
+@mixin tituloHeadercontacto{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+    padding-left: 65px;
+    padding-top: 25px;
+}
+
+@mixin tituloHeaderExteriores{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+    padding-left: 65px;
+    padding-top: 25px;
+}
+
+@mixin tituloHeaderInteriores{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+    padding-left: 65px;
+    padding-top: 25px;
+}
+
+@mixin tituloheaderDrone{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+    padding-left: 65px;
+    padding-top: 25px;
+}
+
+@mixin degradeFondo{
+    background: linear-gradient(to top bottom,rgb(196, 194, 194),rgb(236, 233, 233),rgb(221, 218, 218),white);
+}
