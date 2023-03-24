@@ -42,5 +42,17 @@
 }
 
 .tituloHeadercontacto{
-    @include tituloHeadercontacto
-    }
+    @include tituloHeadercontacto;
+}
+
+.textoContacto{
+    @include backgroundcolortextos;
+    padding: 15px;
+    text-align: center;
+}
+
+.textoContacto2{
+    @extend.textoContacto;
+    padding: 15px;
+    text-align: center;
+}
